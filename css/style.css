@@ -1,0 +1,155 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(../img/graphy.png) repeat;
+}
+
+.header {
+  border-bottom: 1px solid #333;
+  position: relative;
+  width: 100%;
+}
+
+.header .logo {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header .logo img {
+
+}
+
+#map {
+  background: #fff;
+  height: 200px;
+}
+
+.intro {
+  background: #3a5a97; /* Old browsers */
+/*  background: -moz-linear-gradient(top, #3a5a97 0%, #3a5a97 35%, #164493 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a5a97), color-stop(35%,#3a5a97), color-stop(100%,#164493));
+  background: -webkit-linear-gradient(top, #3a5a97 0%,#3a5a97 35%,#164493 100%);
+  background: -o-linear-gradient(top, #3a5a97 0%,#3a5a97 35%,#164493 100%);
+  background: -ms-linear-gradient(top, #3a5a97 0%,#3a5a97 35%,#164493 100%);
+  background: linear-gradient(to bottom, #3a5a97 0%,#3a5a97 35%,#164493 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a5a97', endColorstr='#164493',GradientType=0 );*/
+  text-align: center;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #333;
+  height: 50px;
+  width: 100%;
+}
+
+.intro h2 {
+  margin: 0;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing:8px;
+  font-variant:small-caps;
+}
+.intro h4 {
+  margin: 0;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing:2px;
+  font-size: 14px;
+}
+
+.main {
+  background: #fff;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  position: relative;
+}
+.mainbar {
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-top: 1px solid #888;
+background: #444444; /* Old browsers */
+background: -moz-linear-gradient(top, #444444 1%, #333333 47%, #222222 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#444444), color-stop(47%,#333333), color-stop(100%,#222222)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #444444 1%,#333333 47%,#222222 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #444444 1%,#333333 47%,#222222 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #444444 1%,#333333 47%,#222222 100%); /* IE10+ */
+background: linear-gradient(to bottom, #444444 1%,#333333 47%,#222222 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
+}
+
+.main .row {
+  margin-top: 1px;
+}
+
+.main .title {
+  text-align: center;
+  height: 50px;
+}
+
+.main .title h4 {
+  margin: 0;
+  line-height: 50px;
+  color: #fff;
+}
+
+.main .col-md-4 {
+  border-right: 1px solid #333;
+}
+
+.main .col-md-4:last-child{
+  border-right: none;
+}
+
+.main .content {
+  padding: 10px;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main .content p {
+  text-align: left;
+}
+
+.main .content .btn {
+  margin: 10px 0 10px 0;
+}
+
+.main .content img {
+  margin:  0 10px 10px 0;
+}
+
+.footer {
+  padding-top: 10px;
+  height: 100px;
+  border-top: 1px solid #333;
+  width: 100%;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  background: #3a5a97; /* Old browsers */
+  background: -moz-linear-gradient(top, #3a5a97 0%, #3a5a97 35%, #164493 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a5a97), color-stop(35%,#3a5a97), color-stop(100%,#164493)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #3a5a97 0%,#3a5a97 35%,#164493 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #3a5a97 0%,#3a5a97 35%,#164493 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #3a5a97 0%,#3a5a97 35%,#164493 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #3a5a97 0%,#3a5a97 35%,#164493 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a5a97', endColorstr='#164493',GradientType=0 ); /* IE6-9 */
+}
+
+.footer .links a {
+  float: left;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.footer .copy {
+  color: #fff;
+  font-size: 14px;
+  text-align: right;
+}
