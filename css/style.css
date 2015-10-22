@@ -1,11 +1,9 @@
-* {
-  margin: 0;
-}
-
 html, body {
   height: 100%;
   width: 100%;
-  /*background: url(../img/graphy_light.png) repeat;*/
+}
+
+body {
   background: #fff;
   font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight:500;
@@ -16,7 +14,7 @@ html, body {
 .wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -100px; 
+  margin-bottom: -100px;
 }
 .wrap:after {
   content: "";
@@ -38,7 +36,8 @@ html, body {
 }
 
 .header .logo img {
-
+  width: 100%;
+  max-width: 400px;
 }
 
 #map {
@@ -54,13 +53,13 @@ html, body {
   top: 200px;
 }
 
-.intro h2 {
+.intro h1 {
   margin: 0;
   line-height: 50px;
   color: #fff;
   font-weight: 400;
-/*  letter-spacing:8px;
-  font-variant:small-caps;*/
+  letter-spacing:8px;
+  font-variant:small-caps;
 }
 .intro h4 {
   margin: 0;
@@ -85,7 +84,7 @@ html, body {
 }
 
 .main .blurb {
-  width: 500px;
+  max-width: 500px;
   margin: 20px auto;
   padding-top: 20px;
   border-top: 2px solid #333;
@@ -165,6 +164,10 @@ html, body {
   margin: 20px auto;
   max-width: 400px;
   color: rgba(26, 26, 26, 0.701961);
+}
+
+.examples img {
+  margin: 0 auto;
 }
 
 .contact h5 {
